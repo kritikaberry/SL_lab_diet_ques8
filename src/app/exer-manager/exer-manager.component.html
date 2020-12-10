@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<form>
+    <label>Exercise Name:<input type="text" [(ngModel)]="ename" name="ename"> </label>
+    <br><br>
+    <label>Daily duration:<input type="number" [(ngModel)]="daily" name="daily"></label>
+    <br><br>
+    <label>Weekly Duration:<input type="number" [(ngModel)]="duration" name="duration"></label>
+    <br><br>
+    <button (click)="addexerdata()">Submit</button>
+</form>

@@ -4,18 +4,20 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TodoListComponent } from './todo-list/todo-list.component';
-import { TodoCreateComponent } from './todo-create/todo-create.component';
-import { TodoDetailsComponent } from './todo-details/todo-details.component';
-import { TodoTitleComponent } from './todo-title/todo-title.component';
+import { AddDietComponent } from './add-diet/add-diet.component';
+import { ExerManagerComponent } from './exer-manager/exer-manager.component';
+import { ListDietComponent } from './list-diet/list-diet.component';
+import { ListExerComponent } from './list-exer/list-exer.component';
+import { TrackerComponent } from './tracker/tracker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent,
-    TodoCreateComponent,
-    TodoDetailsComponent,
-    TodoTitleComponent
+    AddDietComponent,
+    ExerManagerComponent,
+    ListDietComponent,
+    ListExerComponent,
+    TrackerComponent
   ],
   imports: [
     BrowserModule,

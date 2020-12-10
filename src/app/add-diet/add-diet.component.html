@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<form>
+    <label>Date:<input type="text" [(ngModel)]="date" name="date"> </label>
+    <br><br>
+    <label>Calories Consumed:<input type="number" [(ngModel)]="cal" name="cal">kcal</label>
+    <br><br>
+    <label>Weight:<input type="number" [(ngModel)]="wt" name="wt">kg</label>
+    <br><br>
+    <label>Height:<input type="number" [(ngModel)]="ht" name="ht">kg</label>
+    <br><br>
+    <button (click)="addDiet()">Submit</button>
+</form>

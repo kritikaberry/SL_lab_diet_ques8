@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TodoDetailsComponent } from './todo-details.component';
+import { ExerManagerComponent } from './exer-manager.component';
 
-describe('TodoDetailsComponent', () => {
-  let component: TodoDetailsComponent;
-  let fixture: ComponentFixture<TodoDetailsComponent>;
+describe('ExerManagerComponent', () => {
+  let component: ExerManagerComponent;
+  let fixture: ComponentFixture<ExerManagerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TodoDetailsComponent ]
+      declarations: [ ExerManagerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TodoDetailsComponent);
+    fixture = TestBed.createComponent(ExerManagerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
